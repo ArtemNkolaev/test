@@ -1,0 +1,70 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerHeader{
+    font-family: 'Lato', sans-serif;                       
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    align-items: center;
+}
+
+.butHeader{
+    font-size: 14px;
+    background: #5B6460;
+    border: 0;
+    width: 200px;
+    height: 60px;
+    color: white;
+}
+
+main{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.introText{
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    position: relative;
+    color: white;
+    top: -630px;
+    left: 580px;
+}
+
+.introHeader{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    align-self: flex-start;
+}
+.introDesc{  
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-size: 20px;
+    width: 370px;
+    top: 34px;
+    left: 379px;
+    text-align: center;
+}
+
+.intro{ 
+    width: 1407px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.cabinsTxt{
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+}
